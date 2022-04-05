@@ -59,3 +59,13 @@ footer{
     background-color: brown;
     grid-area: footer;
 }
+/***********version tablette*************/
+@media screen and (max-width: 901px) and (min-width: 601px) {
+    section{
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    grid-template-areas: "article" "aside-1" "aside-2" "aside-3"; 
+    }
+    
+}
+/************vdersion mobile************/
